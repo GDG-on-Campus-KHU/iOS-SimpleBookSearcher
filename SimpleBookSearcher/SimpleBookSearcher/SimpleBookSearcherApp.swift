@@ -11,7 +11,9 @@ import SwiftUI
 struct SimpleBookSearcherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchBar(searchText: .constant("한강")){
+                
+            }
         }
     }
 }
